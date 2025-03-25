@@ -1,0 +1,533 @@
+body {
+
+font-family: "montserrat", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+margin: auto;
+
+}
+main{
+    font-family: "montserrat", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#left { 
+    display: grid;
+    grid-template-rows: 80% 20%;
+
+}
+
+header {
+display: flex;
+padding: 20px 20px;
+background-color: black;
+justify-content: space-between;
+align-items: center;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 120%;
+}
+
+.resize {
+    width: 100%;
+    height: 123%;
+    position: relative;
+    left: 0%; 
+    top: 0%;
+}
+h1{
+    text-align: center;
+}
+.navbar{
+    position: absolute; 
+    transform:translate(-50%,0);
+    left: 50%;
+}
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+.navbar a{
+    font-family: "montserrat", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: yellow;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+   color: white;
+}
+.navbar li {
+    float: left;
+}
+
+.logo img{
+    max-width: 18%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    font-family: "montserrat", sans-serif;
+    border: 2% solid white;
+    padding: 20px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 85px;
+}
+
+.h2 {
+    margin-left: 50%;
+}
+
+.container { 
+    width: 50%;
+    margin: auto;
+    height: fit-content;
+    border: 2px solid white;
+}
+
+.box1 { 
+    height: 10%;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 20px;
+    text-align: center;
+}
+#button { 
+font-family: "montserrat", sans-serif;
+font-weight: 400;
+background-color: black;
+color: yellow;
+padding: 15%;
+margin: 30%;
+}
+#button:hover {
+    color: white;
+    background-color: red;
+}
+
+.box2 {
+    border: 2% solid white;
+    padding: 20px;
+    height: auto;
+    width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+    text-align: center;
+    font-size: 85px;
+}
+
+.box3 {
+    border: 2% solid white;
+    padding: 20px;
+    height: auto;
+    width: 60%;
+    margin-left: auto;
+  margin-right: auto;
+    text-align: center;
+    font-size: 85px;
+}
+
+.container1 {
+    width: 50%;
+    margin: auto;
+    height: fit-content;
+    border: 2px solid white;
+}
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+body{ 
+    background-color: white;
+}
+.card-container {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card {
+width: 325px;
+background-color: white;
+border-radius: 16px;
+overflow: hidden;
+box-shadow: 0px 2px 4px rgba (0,0,0,0.2);
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content {
+padding: 16px;
+}
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p{
+    color: black;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: yellow; 
+}
+
+.btn:hover{ 
+color: white;
+background-color: red;
+}
+
+.pic { 
+    float: left;
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+
+  
+.titleboxs {
+    margin-top: 25%;
+}
+  .textbox {
+    margin-left:25%;
+    margin-right: 25%;
+    padding-bottom: 20px;
+  }
+
+.button3 {
+    background-color: yellow;
+    font-family: "montserrat", sans-serif;
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.button3:hover {
+   background-color: red;
+   color: white;
+}
+
+.button4 {
+    background-color: black;
+    font-family: "montserrat", sans-serif;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.button4:hover {
+    color: yellow;
+}
+
+.button5 {
+    background-color: red;
+    font-family: "montserrat", sans-serif;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.button5:hover {
+    color: black;
+}
+
+.Subtitle-box {
+width: auto;
+height: auto;
+padding-bottom: 50px;
+text-align: center;
+font-size: 85px;
+}
+
+.Subtitle-box1 {
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 85px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 850px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card1-image {
+    background-color: pink;
+        width: 400px;
+        height: 450px;
+        margin-bottom: 10px;
+       background-size: cover;
+}
+
+.dish-1 {
+    background-image: url('Ackee\ resized.png');
+}
+
+.dish-2 {
+    background-image: url('Conch\ fritters\ resized.png');
+}
+
+.dish-3 {
+    background-image: url('Cornmeal\ porridge\ resized.png');
+}
+
+.spiked-1 {
+    background-image: url('Jamaican\ Sorrel\ Drink\ -\ Easy\ Hibiscus\ Punch!.jpeg');
+}
+
+.spiked-2 {
+    background-image: url('Jamaican\ rum\ punch.jpeg');
+}
+
+.spiked-3 {
+    background-image: url('Dark\ \'n\'\ Stormy.jpeg');
+}
+
+.virgin-1 {
+    background-image: url('Soursop\ Smoothie\ \(Sinh\ tố\ mãng\ cầu\).jpeg');
+}
+
+.virgin-2 {
+    background-image: url('How\ To\ Make\ Carrot\ Juice.jpeg');
+}
+
+.virgin-3 {
+    background-image: url('BEST\ Easy\ Caribbean\ Ginger\ Beer\ Recipe\ -\ Foodie\ Not\ a\ Chef\ _\ Afrocaribbean\ Food\ Blog.jpeg');
+}
+
+.dis-box { 
+    text-align: center;
+    margin: 15px;
+}
+
+.card1:hover {
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.card1 h2 {
+    margin: 10px;
+}
+
+.card1 h3 {
+    margin: 10px;
+}
+
+.card1 p {
+    margin: 10px;
+}
+
+.card ul {
+    margin: 25px;
+}
+
+.button6 {
+    background-color: black;
+    font-family: "montserrat", sans-serif;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 165px;
+}
+
+.button6:hover {
+    color: yellow;
+}
+
+.button7 {
+    background-color: red;
+    font-family: "montserrat", sans-serif;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 70px;
+}
+
+.button7:hover {
+   background-color: red;
+   color: black;
+}
+
+.button8 {
+    background-color: black;
+    font-family: "montserrat", sans-serif;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 70px;
+}
+
+.button8:hover {
+    color: yellow;
+}
+
+.button9 {
+    background-color: black;
+    font-family: "montserrat", sans-serif;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 76px;
+}
+
+.button9:hover {
+   background-color: black;
+   color: yellow;
+}
+
+.button10 {
+    background-color: red;
+    font-family: "montserrat", sans-serif;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 123px;
+}
+
+.button10:hover {
+   background-color: red;
+   color: black;
+}
+
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: green;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .9s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: justify;
+  }
+
+.textbox1 {
+    text-align: justify;
+    font-size: 20pt;
+}
+.image1 {
+    display: block;
+    width: 585px;
+    height: 580px;
+  }
+
+  
